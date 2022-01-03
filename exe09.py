@@ -1,5 +1,12 @@
 import math
 import random
+
+num = int(input('Digite um numero: '))
+raiz = math.sqrt(num)
+print (raiz)
+
+
+
 """
 valor = float(input('Digite o valor do produto: '))
 
@@ -14,7 +21,6 @@ salario = int(input('Digite o seu salrio: '))
 reajuste = salario + (salario * 15 / 100)
 
 print('Seu novo salario sera de {}' .format(reajuste))
-"""
 
 diasRodados = float(input('Digite quantos dias voce ficou com o carro: '))
 
@@ -23,3 +29,4 @@ km = float(input('Digite quantos Quilometros voce rodou: '))
 res = (diasRodados * 60) + (km * 0.15)
 
 print('Valor a pagar R${:.2f}' .format(res))
+"""
